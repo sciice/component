@@ -1,7 +1,7 @@
 import '@babel/polyfill';
 import React, { Component } from 'react';
 import * as ReactDOM from 'react-dom';
-import { api, HeaderWrapper, Table } from './component';
+import { HeaderWrapper, Table, api } from './component';
 import style from './index.less';
 
 class Main extends Component {
