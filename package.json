@@ -5,7 +5,7 @@
     "clean": "rimraf dist",
     "build": "npm run clean && cross-env NODE_ENV=production rollup -c scripts/prod.js",
     "lint-staged": "lint-staged",
-    "test": "jest",
+    "test": "jest -u",
     "prettier": "node ./scripts/prettier.js"
   },
   "main": "dist/index.js",
