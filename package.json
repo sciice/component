@@ -1,5 +1,6 @@
 {
   "name": "@sciice/component",
+  "version": "1.0.1",
   "scripts": {
     "start": "cross-env NODE_ENV=development rollup -c scripts/dev.js --watch",
     "clean": "rimraf dist",
