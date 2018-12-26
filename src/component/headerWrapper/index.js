@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PageHeader from '../PageHeader';
+import PageHeader from '../pageHeader';
 import GridContent from './GridContent';
 import 'antd/lib/breadcrumb/style';
 import styles from './index.less';
