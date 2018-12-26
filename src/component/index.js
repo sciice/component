@@ -1,2 +1,4 @@
 import Authorize from './authorize';
-export { Authorize };
+import Table from './table';
+
+export { Authorize, Table };
