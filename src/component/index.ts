@@ -1,4 +1,5 @@
 export { default as Authorize } from './authorize';
+export { default as AuthorizeButton } from './authorizeButton';
 export { default as Table } from './table';
 export { default as Result } from './result';
 export { default as DescriptionList } from './descriptionList';
