@@ -1,10 +1,10 @@
 import '@babel/polyfill';
-import React, { Component } from 'react';
+import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { HeaderWrapper, Table, api } from './component';
 import style from './index.less';
 
-class Main extends Component {
+class Main extends React.Component {
   state = {
     data: [],
   };

@@ -1,4 +1,5 @@
 import Authorize from './authorize';
+import AuthorizeButton from './authorizeButton';
 import Table from './table';
 import Result from './result';
 import DescriptionList from './descriptionList';
@@ -19,6 +20,7 @@ export {
   GlobalFooter,
   FooterToolbar,
   Authorize,
+  AuthorizeButton,
   HeaderWrapper,
   parseTreeData,
   urlToList,

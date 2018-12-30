@@ -1,10 +1,10 @@
 {
   "name": "@sciice/component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "start": "cross-env NODE_ENV=development rollup -c scripts/dev.js --watch",
     "clean": "rimraf dist",
-    "build": "npm run clean && cross-env NODE_ENV=production rollup -c scripts/prod.js",
+    "build": "yarn clean && cross-env NODE_ENV=production rollup -c scripts/prod.js",
     "lint-staged": "lint-staged",
     "test": "jest -u",
     "prettier": "node ./scripts/prettier.js"
